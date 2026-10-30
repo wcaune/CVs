@@ -2,6 +2,7 @@
 %	   XeLaTeX
 %----------------------------------------------------------------------------------------
 
+
 \documentclass{resume} % Use the custom resume.cls style
 \usepackage[lastpage,user]{zref}
 %\usepackage{ctex}
@@ -23,7 +24,7 @@
 
 \renewenvironment{rSection}[1]{
 \sectionskip
-\textcolor{Orange}{\MakeUppercase{#1}}
+\textcolor{Orange}{\bfseries\MakeUppercase{#1}}
 \sectionlineskip
 \hrule
 \begin{list}{}{
@@ -42,96 +43,438 @@
 %	EXAMPLE SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{ Publications}
-\begin{enumerate}
-\item S.~Abbaslu \textit{et al.} [DUNE],
-``Spatial and Temporal Evaluations of the Liquid Argon Purity in ProtoDUNE-SP,''
-arXiv:2507.08586 [physics.ins-det].
-\item C.~Accettura \textit{et al.} [International Muon Collider],
+\renewcommand{\refname}{} % Removes the default "References" / "Bibliography" title
+\vspace{-2.5em} % Adjusts space left behind by the empty title
+\begin{thebibliography}{99}
+%\cite{NOvA:2026acq}
+\bibitem{NOvA:2026acq}
+S.~Abubakar \textit{et al.} [NOvA],
+``Measurement of the $\bar ν_μ-$Hydrogen Charged-Current Quasi-Elastic Cross Section using the NOvA Near Detector,''
+[arXiv:2608.12293 [hep-ex]].
+%0 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{NOvA:2026pts}
+\bibitem{NOvA:2026pts}
+S.~Abubakar \textit{et al.} [NOvA],
+``Timing-Based Search for Magnetic Monopoles with the NOvA Detector on the Surface,''
+doi:10.5281/zenodo.21811524
+[arXiv:2608.03888 [hep-ex]].
+%1 citations counted in INSPIRE as of 27 Oct 2026
+
+%\cite{DUNE:2026aaw}
+\bibitem{DUNE:2026aaw}
+S.~Abbaslu \textit{et al.} [DUNE],
+``A Bayesian approach to the long-baseline neutrino oscillation sensitivity of DUNE,''
+[arXiv:2608.04059 [hep-ex]].
+%1 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2026mze}
+\bibitem{DUNE:2026mze}
+S.~Abbaslu \textit{et al.} [DUNE],
+``Operation and performance of ProtoDUNE Dual Phase liquid argon time projection chamber,''
+[arXiv:2607.15927 [physics.ins-det]].
+%2 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{NOvA:2026tir}
+\bibitem{NOvA:2026tir}
+S.~Abubakar \textit{et al.} [NOvA],
+``Determining Neutrino Mass Ordering with NOvA and Upcoming JUNO Measurements,''
+[arXiv:2606.14121 [hep-ex]].
+%2 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2026yfe}
+\bibitem{DUNE:2026yfe}
+S.~Abbaslu \textit{et al.} [DUNE],
+``Charge readout electronics for the DUNE horizontal drift far detector: design and performance in ProtoDUNE-HD,''
+JINST \textbf{21}, no.08, P08018 (2026)
+doi:10.1088/1748-0221/21/08/P08018
+[arXiv:2604.23966 [physics.ins-det]].
+%0 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{NOvA:2026zup}
+\bibitem{NOvA:2026zup}
+S.~Abubakar \textit{et al.} [NOvA],
+``First inclusive triple-differential measurement of the muon-antineutrino charged-current cross section using the NOvA Near Detector,''
+doi:10.5281/zenodo.18867876
+[arXiv:2603.06718 [hep-ex]].
+%4 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{Aarrestad:2026xrs}
+\bibitem{Aarrestad:2026xrs}
+T.~K.~Aarrestad, A.~Abdelhamid, H.~Abidi, J.~Adelman, J.~Adelman-McCarthy, S.~Aeron, G.~Agarwal, U.~Ali, C.~Alpigiani and O.~Alterkait, \textit{et al.}
+``Building an AI-native Research Ecosystem for Experimental Particle Physics: A Community Vision,''
+[arXiv:2602.17582 [hep-ex]].
+%8 citations counted in INSPIRE as of 27 Oct 2026
+
+%\cite{DUNE:2026yly}
+\bibitem{DUNE:2026yly}
+S.~Abbaslu \textit{et al.} [DUNE],
+``Reconstruction of atmospheric neutrinos in DUNE{\textquoteright}s horizontal-drift far-detector module,''
+Eur. Phys. J. C \textbf{86}, no.7, 904 (2026)
+doi:10.1140/epjc/s10052-026-15911-w
+[arXiv:2601.05697 [hep-ex]].
+%3 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2025zhx}
+\bibitem{DUNE:2025zhx}
+S.~Abbaslu \textit{et al.} [DUNE],
+``Measurement of exclusive {\ensuremath{\pi}}+-argon interactions using ProtoDUNE-SP,''
+Phys. Rev. D \textbf{113}, no.11, 112002 (2026)
+doi:10.1103/nm5s-4cnw
+[arXiv:2511.13462 [hep-ex]].
+%7 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2025pda}
+\bibitem{DUNE:2025pda}
+S.~Abbaslu \textit{et al.} [DUNE],
+``First Measurement of $π^+$-Ar and $p$-Ar Total Inelastic Cross Sections in the Sub-GeV Energy Regime with ProtoDUNE-SP Data,''
+[arXiv:2511.11925 [nucl-ex]].
+%8 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{MuCoL:2025quu}
+\bibitem{MuCoL:2025quu}
+R.~Taylor \textit{et al.} [MuCoL],
+``MuCol Milestone Report No. 7: Consolidated Parameters,''
+doi:10.5281/zenodo.17476875
+[arXiv:2510.27437 [physics.acc-ph]].
+%17 citations counted in INSPIRE as of 14 Oct 2026
+
+%\cite{DUNE:2025dec}
+\bibitem{DUNE:2025dec}
+S.~Abbaslu \textit{et al.} [DUNE],
+``Identification of low-energy kaons in the ProtoDUNE-SP detector,''
+Phys. Rev. D \textbf{113}, no.5, 052004 (2026)
+doi:10.1103/q21l-pl7s
+[arXiv:2510.08380 [hep-ex]].
+%1 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{CEPCStudyGroup:2025kmw}
+\bibitem{CEPCStudyGroup:2025kmw}
+S.~P.~Adhya \textit{et al.} [CEPC Study Group],
+``CEPC Technical Design Report - Reference Detector,''
+[arXiv:2510.05260 [hep-ex]].
+%68 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2025lvs}
+\bibitem{DUNE:2025lvs}
+S.~Abbaslu \textit{et al.} [DUNE],
+``Toward virtual thin-beam \(\nu\) cross-section measurements: A feasibility study of \(\nu\)-Ar interaction analysis with DUNE-PRISM,''
+Phys. Rev. D \textbf{114}, no.1, 012018 (2026)
+doi:10.1103/y9tz-sgcs
+[arXiv:2509.07664 [hep-ex]].
+%8 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2025zsi}
+\bibitem{DUNE:2025zsi}
+S.~Abbaslu \textit{et al.} [DUNE],
+``Operation of a Modular 3D-Pixelated Liquid Argon Time-Projection Chamber in a Neutrino Beam,''
+Instruments \textbf{10}, no.1, 18 (2026)
+doi:10.3390/instruments10010018
+[arXiv:2509.07012 [physics.ins-det]].
+%7 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2025wjg}
+\bibitem{DUNE:2025wjg}
+S.~Abbaslu \textit{et al.} [DUNE],
+``Spatial and temporal evaluations of the liquid argon purity in ProtoDUNE-SP,''
+JINST \textbf{20}, no.09, P09008 (2025)
+doi:10.1088/1748-0221/20/09/P09008
+[arXiv:2507.08586 [physics.ins-det]].
+%5 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{InternationalMuonCollider:2025sys}
+\bibitem{InternationalMuonCollider:2025sys}
+C.~Accettura \textit{et al.} [International Muon Collider],
 ``The Muon Collider,''
-arXiv:2504.21417 [physics.acc-ph].
-\item A.~Abed Abud \textit{et al.} [DUNE],
+[arXiv:2504.21417 [physics.acc-ph]].
+%120 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2025ypd}
+\bibitem{DUNE:2025ypd}
+A.~Abed Abud \textit{et al.} [DUNE],
 ``European Contributions to Fermilab Accelerator Upgrades and Facilities for the DUNE Experiment,''
 [arXiv:2503.23744 [physics.acc-ph]].
-\item A.~Abed Abud \textit{et al.} [DUNE],
+%0 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2025xpk}
+\bibitem{DUNE:2025xpk}
+A.~Abed Abud \textit{et al.} [DUNE],
 ``DUNE Software and Computing Research and Development,''
 [arXiv:2503.23743 [physics.data-an]].
-\item A.~Abed Abud \textit{et al.} [DUNE],
+%0 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2025sjq}
+\bibitem{DUNE:2025sjq}
+A.~Abed Abud \textit{et al.} [DUNE],
 ``The DUNE Science Program,''
 [arXiv:2503.23291 [hep-ex]].
-\item A.~Abed Abud \textit{et al.} [DUNE],``The DUNE Phase II Detectors,''[arXiv:2503.23293 [physics.ins-det]].
-\item Asmaa~Abada,  \textit{et al.},``Neutrino Theory in the Precision Era'', arXiv: 2504.00014 [hep-ph].
-\item Adam~Abed~Abud,  \textit{et al.},``Neutrino Interaction Vertex Reconstruction in DUNE with Pandora Deep Learning'', [arXiv:2502.06637 [hep-ex]].Published in: Eur.Phys.J.C 85 (2025) 697, 697.
+%7 citations counted in INSPIRE as of 30 Oct 2026
 
-\item W.~Abdallah, \textit{et al.}, ``CEPC Technical Design Report -- Accelerator'',\\ e-Print: 2312.14363 [physics.acc-ph].
+%\cite{DUNE:2025gyl}
+\bibitem{DUNE:2025gyl}
+A.~Abed Abud \textit{et al.} [DUNE],
+``The DUNE Phase II Detectors,''
+[arXiv:2503.23293 [physics.ins-det]].
+%6 citations counted in INSPIRE as of 30 Oct 2026
 
-\item J.~Aalbers, \textit{et al.}, ``First Dark Matter Search Results from the LUX-ZEPLIN (LZ) Experiment,'' arXiv:2207.03764 [hep-ex]. Published in: Phys.Rev.Lett. 131 (2023) 4, 041002
-\item J.~Aalbers, \textit{et al.}, ``A Next-Generation Liquid Xenon Observatory for Dark Matter and Neutrino Physics,'' arXiv:2203.02309. Published in: J.Phys.G 50 (2023) 1, 013001
+%\cite{Abada:2025jpk}
+\bibitem{Abada:2025jpk}
+A.~Abada, G.~Barenboim, T.~Bertolez-Mart{\i}nez, S.~Bhattacherjee, S.~Bolognesi, P.~D.~Bolton, N.~Bostan, G.~C.~Branco, S.~S.~Chatterjee and A.~Cherchiglia, \textit{et al.}
+``Neutrino Theory in the Precision Era,''
+[arXiv:2504.00014 [hep-ph]].
+%3 citations counted in INSPIRE as of 05 Aug 2026
 
-\item D.~Caratelli,  \textit{et al.}, ``Low-Energy Physics in Neutrino LArTPCs,'' arXiv:2203.00740.
+%\cite{DUNE:2025wti}
+\bibitem{DUNE:2025wti}
+A.~A.~Abud \textit{et al.} [DUNE],
+``Neutrino interaction vertex reconstruction in DUNE with Pandora deep learning,''
+Eur. Phys. J. C \textbf{85}, no.697, 697 (2025)
+doi:10.1140/epjc/s10052-025-14313-8
+[arXiv:2502.06637 [hep-ex]].
+%6 citations counted in INSPIRE as of 30 Oct 2026
 
-\item J.~Aalbers, \textit{et al.}, ``Cosmogenic production of $^{37}$Ar in the context of the LUX-ZEPLIN experiment,'' Phys.Rev.D 105 (2022) 8, 082004. arXiv:2201.02858.
-\item D. S. Akerib et al., ``Projected sensitivity of the LUX-ZEPLIN experiment to the two-neutrino and neutrinoless double $\ensuremath{\beta}$ decays of $^{134}\mathrm{Xe}$,'' Phys. Rev. C, vol. 104, p. 065 501, 2021.
-\item D. S. Akerib et al., “Projected sensitivities of the LUX-ZEPLIN (LZ) experiment to new physics
-via low-energy electron recoils,” Phys. Rev. D, vol. 104, p. 092 009, 2021. arXiv: 2102.11740 [hep-ex].
-\item D. S. Akerib et al., “Enhancing the sensitivity of the LUX-ZEPLIN (LZ) dark matter experiment
-to low energy signals,” Jan. 2021. arXiv: 2101.08753 [astro-ph.IM].
-\item  M. Acero et al., “Measurement of neutrino-induced neutral-current coherent $\pi^0$ production
-in the NOvA near detector,” Phys. Rev. D, vol. 102, no. 1, p. 012 004, 2020. arXiv: 1902.00558
-[hep-ex].
-\item  M. Acero et al., “First Measurement of Neutrino Oscillation Parameters using Neutrinos and
-Antineutrinos by NOvA,” Phys. Rev. Lett., vol. 123, no. 15, p. 151 803, 2019. arXiv: 1906.04907
-[hep-ex].
-\item  M.A. Acero et al., ``Observation of seasonal variation of atmospheric multiple-muon events in the NOvA Near Detector,'' Phys.Rev.D 99 (2019) 12, 122004. arXiv:1904.12975 [physics.ins-det].
-\item M. Dong et al., “CEPC Conceptual Design Report: Volume 2 - Physics \& Detector,” J. B.
-Guimar.es da Costa et al., Eds., Nov. 2018. arXiv: 1811.10545 [hep-ex].
+%\cite{CEPCStudyGroup:2023quu}
+\bibitem{CEPCStudyGroup:2023quu}
+W.~Abdallah \textit{et al.} [CEPC Study Group],
+``CEPC Technical Design Report: Accelerator,''
+Radiat. Detect. Technol. Methods \textbf{8}, no.1, 1-1105 (2024)
+[erratum: Radiat. Detect. Technol. Methods \textbf{9}, no.1, 184-192 (2025)]
+doi:10.1007/s41605-024-00463-y
+[arXiv:2312.14363 [physics.acc-ph]].
+%287 citations counted in INSPIRE as of 30 Oct 2026
 
-\item B.~Abi \textit{et al.} [DUNE], ``The DUNE Far Detector Interim Design Report Volume 1: Physics, Technology and Strategies,'' [arXiv:1807.10334 [physics.ins-det]].
-\item B.~Abi \textit{et al.} [DUNE], ``The DUNE Far Detector Interim Design Report, Volume 2: Single-Phase Module,''[arXiv:1807.10327 [physics.ins-det]].
-\item B.~Abi \textit{et al.} [DUNE], ``The DUNE Far Detector Interim Design Report, Volume 3: Dual-Phase Module,'' [arXiv:1807.10340 [physics.ins-det]].
-\item M. Acero et al., “New constraints on oscillation parameters from $\nu_e$ appearance and $\nu_\mu$ disappearance in the NOvA experiment,” Phys. Rev. D, vol. 98, p. 032 012, 2018. arXiv: 1806.00096
-[hep-ex].
-%\newpage
+%\cite{LZ:2022lsv}
+\bibitem{LZ:2022lsv}
+J.~Aalbers \textit{et al.} [LZ],
+``First Dark Matter Search Results from the LUX-ZEPLIN (LZ) Experiment,''
+Phys. Rev. Lett. \textbf{131}, no.4, 041002 (2023)
+doi:10.1103/PhysRevLett.131.041002
+[arXiv:2207.03764 [hep-ex]].
+%1337 citations counted in INSPIRE as of 30 Oct 2026
 
-\item B. Wang, “Muon-Neutrino Electron Elastic Scattering and a Search for the Muon-Neutrino
-Magnetic Moment in the NOvA Near Detector,” Ph.D. dissertation, Southern Methodist U.,
-2017.
-\item F.~Jediny, A.~Hatzikoutelis, S.~Kotelnikov and B.~Wang, ``Searching for Lightweight Dark Matter in NOvA Near Detector,''
+%\cite{Aalbers:2022dzr}
+\bibitem{Aalbers:2022dzr}
+J.~Aalbers, S.~S.~AbdusSalam, K.~Abe, V.~Aerne, F.~Agostini, S.~A.~Maouloud, D.~S.~Akerib, D.~Y.~Akimov, J.~Akshat and A.~K.~A.~Musalhi, \textit{et al.}
+``A next-generation liquid xenon observatory for dark matter and neutrino physics,''
+J. Phys. G \textbf{50}, no.1, 013001 (2023)
+doi:10.1088/1361-6471/ac841a
+[arXiv:2203.02309 [physics.ins-det]].
+%227 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{Caratelli:2022llt}
+\bibitem{Caratelli:2022llt}
+D.~Caratelli, W.~Foreman, A.~Friedland, S.~Gardiner, I.~Gil-Botella, G.~Karagiorgi, M.~Kirby, G.~Lehmann Miotto, B.~R.~Littlejohn and M.~Mooney, \textit{et al.}
+``Low-Energy Physics in Neutrino LArTPCs,''
+doi:10.2172/1861356
+[arXiv:2203.00740 [physics.ins-det]].
+%43 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{LZ:2022kml}
+\bibitem{LZ:2022kml}
+J.~Aalbers \textit{et al.} [LZ],
+``Cosmogenic production of Ar37 in the context of the LUX-ZEPLIN experiment,''
+Phys. Rev. D \textbf{105}, no.8, 082004 (2022)
+doi:10.1103/PhysRevD.105.082004
+[arXiv:2201.02858 [hep-ex]].
+%26 citations counted in INSPIRE as of 18 Sep 2026
+
+%\cite{LZ:2021blo}
+\bibitem{LZ:2021blo}
+D.~S.~Akerib \textit{et al.} [LZ],
+``Projected sensitivity of the LUX-ZEPLIN experiment to the two-neutrino and neutrinoless double $\beta$ decays of $^{134}$Xe,''
+Phys. Rev. C \textbf{104}, no.6, 065501 (2021)
+doi:10.1103/PhysRevC.104.065501
+[arXiv:2104.13374 [physics.ins-det]].
+%23 citations counted in INSPIRE as of 20 Oct 2026
+
+%\cite{LZ:2021xov}
+\bibitem{LZ:2021xov}
+D.~S.~Akerib \textit{et al.} [LZ],
+``Projected sensitivities of the LUX-ZEPLIN experiment to new physics via low-energy electron recoils,''
+Phys. Rev. D \textbf{104}, no.9, 092009 (2021)
+doi:10.1103/PhysRevD.104.092009
+[arXiv:2102.11740 [hep-ex]].
+%64 citations counted in INSPIRE as of 25 Sep 2026
+
+%\cite{NOvA:2019cyt}
+\bibitem{NOvA:2019cyt}
+M.~A.~Acero \textit{et al.} [NOvA],
+``First Measurement of Neutrino Oscillation Parameters using Neutrinos and Antineutrinos by NOvA,''
+Phys. Rev. Lett. \textbf{123}, no.15, 151803 (2019)
+doi:10.1103/PhysRevLett.123.151803
+[arXiv:1906.04907 [hep-ex]].
+%475 citations counted in INSPIRE as of 21 Oct 2026
+
+%\cite{NOvA:2019rnr}
+\bibitem{NOvA:2019rnr}
+M.~A.~Acero \textit{et al.} [NOvA],
+``Observation of seasonal variation of atmospheric multiple-muon events in the NOvA Near Detector,''
+Phys. Rev. D \textbf{99}, no.12, 122004 (2019)
+doi:10.1103/PhysRevD.99.122004
+[arXiv:1904.12975 [physics.ins-det]].
+%23 citations counted in INSPIRE as of 27 Oct 2026
+
+%\cite{NOvA:2019bdw}
+\bibitem{NOvA:2019bdw}
+M.~A.~Acero \textit{et al.} [NOvA],
+``Measurement of neutrino-induced neutral-current coherent $\pi^0$  production in the NOvA near detector,''
+Phys. Rev. D \textbf{102}, no.1, 012004 (2020)
+doi:10.1103/PhysRevD.102.012004
+[arXiv:1902.00558 [hep-ex]].
+%44 citations counted in INSPIRE as of 27 Oct 2026
+
+%\cite{CEPCStudyGroup:2018ghi}
+\bibitem{CEPCStudyGroup:2018ghi}
+J.~B.~Guimar{\~a}es da Costa \textit{et al.} [CEPC Study Group],
+``CEPC Conceptual Design Report: Volume 2 - Physics {\&} Detector,''
+[arXiv:1811.10545 [hep-ex]].
+%1073 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2018tke}
+\bibitem{DUNE:2018tke}
+B.~Abi \textit{et al.} [DUNE],
+``The DUNE Far Detector Interim Design Report Volume 1: Physics, Technology and Strategies,''
+[arXiv:1807.10334 [physics.ins-det]].
+%285 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2018hrq}
+\bibitem{DUNE:2018hrq}
+B.~Abi \textit{et al.} [DUNE],
+``The DUNE Far Detector Interim Design Report, Volume 2: Single-Phase Module,''
+[arXiv:1807.10327 [physics.ins-det]].
+%87 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2018mlo}
+\bibitem{DUNE:2018mlo}
+B.~Abi \textit{et al.} [DUNE],
+``The DUNE Far Detector Interim Design Report, Volume 3: Dual-Phase Module,''
+[arXiv:1807.10340 [physics.ins-det]].
+%90 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{NOvA:2018gge}
+\bibitem{NOvA:2018gge}
+M.~A.~Acero \textit{et al.} [NOvA],
+``New constraints on oscillation parameters from $\nu_e$ appearance and $\nu_\mu$ disappearance in the NOvA experiment,''
+Phys. Rev. D \textbf{98}, 032012 (2018)
+doi:10.1103/PhysRevD.98.032012
+[arXiv:1806.00096 [hep-ex]].
+%285 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{Wang:2017xtc}
+\bibitem{Wang:2017xtc}
+B.~Wang,
+``Muon-Neutrino Electron Elastic Scattering and a Search for the Muon-Neutrino Magnetic Moment in the NOvA Near Detector,''
+doi:10.2172/1418139
+%0 citations counted in INSPIRE as of 27 Oct 2026
+
+%\cite{Jediny:2017evi}
+\bibitem{Jediny:2017evi}
+F.~Jediny, A.~Hatzikoutelis, S.~Kotelnikov and B.~Wang,
+``Searching for Lightweight Dark Matter in NOvA Near Detector,''
 PoS \textbf{FPCP2017}, 056 (2017)
-\item B. Wang, J. Bian, T. E. Coan, S. Kotelnikov, H. Duyang, and A. Hatzikoutelis, “Muon Neutrino
-on Electron Elastic Scattering in the NOvA Near Detector and its Applications Beyond the
-Standard Model,” J. Phys. Conf. Ser., vol. 888, no. 1, p. 012 123, 2017.
+doi:10.22323/1.304.0056
+%1 citations counted in INSPIRE as of 13 Oct 2026
 
-\item B. Abi et al., “The Single-Phase ProtoDUNE Technical Design Report,” Jun. 2017. arXiv: 1706.
-07081 [physics.ins-det].
-\item P. Adamson et al., “Search for active-sterile neutrino mixing using neutral-current interactions
-in NOvA,” Phys. Rev. D, vol. 96, no. 7, p. 072 006, 2017. arXiv: 1706.04592 [hep-ex].
-\item P. Adamson et al., “Constraints on Oscillation Parameters from $\nu_e$ Appearance and $\nu_\mu$ Disappearance in NOvA,” Phys. Rev. Lett., vol. 118, no. 23, p. 231 801, 2017. arXiv: 1703.03328
-[hep-ex].
-\item F.~Jediny, A.~Hatzikoutelis, S.~Kotelnikov and B.~Wang,
+%\cite{Wang:2017tmk}
+\bibitem{Wang:2017tmk}
+B.~Wang \textit{et al.} [NOvA],
+``Muon Neutrino on Electron Elastic Scattering in the NOvA Near Detector and its Applications Beyond the Standard Model,''
+J. Phys. Conf. Ser. \textbf{888}, no.1, 012123 (2017)
+doi:10.1088/1742-6596/888/1/012123
+%10 citations counted in INSPIRE as of 27 Oct 2026
+
+%\cite{DUNE:2017pqt}
+\bibitem{DUNE:2017pqt}
+B.~Abi \textit{et al.} [DUNE],
+``The Single-Phase ProtoDUNE Technical Design Report,''
+[arXiv:1706.07081 [physics.ins-det]].
+%197 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{NOvA:2017geg}
+\bibitem{NOvA:2017geg}
+P.~Adamson \textit{et al.} [NOvA],
+``Search for active-sterile neutrino mixing using neutral-current interactions in NOvA,''
+Phys. Rev. D \textbf{96}, no.7, 072006 (2017)
+doi:10.1103/PhysRevD.96.072006
+[arXiv:1706.04592 [hep-ex]].
+%129 citations counted in INSPIRE as of 27 Oct 2026
+
+%\cite{NOvA:2017abs}
+\bibitem{NOvA:2017abs}
+P.~Adamson \textit{et al.} [NOvA],
+``Constraints on Oscillation Parameters from $\nu_e$ Appearance and $\nu_\mu$ Disappearance in NOvA,''
+Phys. Rev. Lett. \textbf{118}, no.23, 231801 (2017)
+doi:10.1103/PhysRevLett.118.231801
+[arXiv:1703.03328 [hep-ex]].
+%269 citations counted in INSPIRE as of 27 Oct 2026
+
+%\cite{Jediny:2017hfz}
+\bibitem{Jediny:2017hfz}
+F.~Jediny, A.~Hatzikoutelis, S.~Kotelnikov and B.~Wang,
 ``Looking amongst the neutrinos for lightweight dark matter in the NOvA Near Detector,''
-PoS \textbf{ICHEP2016}, 876 (2017).
-%doi:10.22323/1.282.0876
+PoS \textbf{ICHEP2016}, 876 (2017)
+doi:10.22323/1.282.0876
+%0 citations counted in INSPIRE as of 13 Oct 2026
 
-\item P. Adamson et al., “Measurement of the neutrino mixing angle $\theta_{23}$ in NOvA,” Phys. Rev. Lett.,
-vol. 118, no. 15, p. 151 802, 2017. arXiv: 1701.05891 [hep-ex].
-\item R. Acciarri et al., “Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-Experiment (DUNE): Conceptual Design Report, Volume 1: The LBNF and DUNE Projects,” Jan.
-2016. arXiv: 1601.05471 [physics.ins-det].
-\item R. Acciarri et al., “Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-Experiment (DUNE): Conceptual Design Report, Volume 4 The DUNE Detectors at LBNF,” Jan.
-2016. arXiv: 1601.02984 [physics.ins-det].
-\item P. Adamson et al., “First measurement of muon-neutrino disappearance in NOvA,” Phys. Rev. D,
-vol. 93, no. 5, p. 051 104, 2016. arXiv: 1601.05037 [hep-ex].
-\item P. Adamson et al., “First measurement of electron neutrino appearance in NOvA,” Phys. Rev.
-Lett., vol. 116, no. 15, p. 151 806, 2016. arXiv: 1601.05022 [hep-ex].
-\item R. Acciarri et al., “Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-Experiment (DUNE): Conceptual Design Report, Volume 2: The Physics Program for DUNE at
-LBNF,” Dec. 2015. arXiv: 1512.06148 [physics.ins-det].
-\item B. Wang, C. Bertulani, and A. Balantekin, “Electron screening and its effects on Big-Bang
-nucleosynthesis,” Phys. Rev. C, vol. 83, p. 018 801, 2011. arXiv: 1010.1565 [astro-ph.CO].
+%\cite{NOvA:2017ohq}
+\bibitem{NOvA:2017ohq}
+P.~Adamson \textit{et al.} [NOvA],
+``Measurement of the neutrino mixing angle $\theta_{23}$ in NOvA,''
+Phys. Rev. Lett. \textbf{118}, no.15, 151802 (2017)
+doi:10.1103/PhysRevLett.118.151802
+[arXiv:1701.05891 [hep-ex]].
+%208 citations counted in INSPIRE as of 27 Oct 2026
 
-\end{enumerate}
+%\cite{DUNE:2016hlj}
+\bibitem{DUNE:2016hlj}
+R.~Acciarri \textit{et al.} [DUNE],
+``Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE): Conceptual Design Report, Volume 1: The LBNF and DUNE Projects,''
+[arXiv:1601.05471 [physics.ins-det]].
+%598 citations counted in INSPIRE as of 30 Oct 2026
 
+%\cite{NOvA:2016kwd}
+\bibitem{NOvA:2016kwd}
+P.~Adamson \textit{et al.} [NOvA],
+``First measurement of electron neutrino appearance in NOvA,''
+Phys. Rev. Lett. \textbf{116}, no.15, 151806 (2016)
+doi:10.1103/PhysRevLett.116.151806
+[arXiv:1601.05022 [hep-ex]].
+%351 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{NOvA:2016vij}
+\bibitem{NOvA:2016vij}
+P.~Adamson \textit{et al.} [NOvA],
+``First measurement of muon-neutrino disappearance in NOvA,''
+Phys. Rev. D \textbf{93}, no.5, 051104 (2016)
+doi:10.1103/PhysRevD.93.051104
+[arXiv:1601.05037 [hep-ex]].
+%231 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2016rla}
+\bibitem{DUNE:2016rla}
+R.~Acciarri \textit{et al.} [DUNE],
+``Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE): Conceptual Design Report, Volume 4 The DUNE Detectors at LBNF,''
+[arXiv:1601.02984 [physics.ins-det]].
+%340 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{DUNE:2015lol}
+\bibitem{DUNE:2015lol}
+R.~Acciarri \textit{et al.} [DUNE],
+``Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE): Conceptual Design Report, Volume 2: The Physics Program for DUNE at LBNF,''
+[arXiv:1512.06148 [physics.ins-det]].
+%1216 citations counted in INSPIRE as of 30 Oct 2026
+
+%\cite{Wang:2010px}
+\bibitem{Wang:2010px}
+B.~Wang, C.~A.~Bertulani and A.~B.~Balantekin,
+``Electron screening and its effects on Big-Bang nucleosynthesis,''
+Phys. Rev. C \textbf{83}, 018801 (2011)
+doi:10.1103/PhysRevC.83.018801
+[arXiv:1010.1565 [astro-ph.CO]].
+%38 citations counted in INSPIRE as of 20 Aug 2026
+
+
+\end{thebibliography}
 
 
 \end{rSection}
@@ -140,3 +483,4 @@ nucleosynthesis,” Phys. Rev. C, vol. 83, p. 018 801, 2011. arXiv: 1010.1565 [a
 
 
 \end{document}
+
