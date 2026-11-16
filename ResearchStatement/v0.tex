@@ -1,0 +1,68 @@
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage{fontspec}
+
+
+\usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+\setmainfont{WenJin Mincho Plane 3}
+
+\usepackage{xcolor}
+\usepackage{sectsty}
+
+% Change color of all section titles to orange
+\sectionfont{\color{orange}}
+
+\title{Research Statement}
+\author{Biao Wang\thanks{e-mail: biaow@***.edu}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+%\noindent \textbf{Abstract.} Write a short 2--3 sentence summary of your research plan and main goals.
+
+\section{First Research Topic}
+
+Describe the motivation, key physics or technical questions, and your proposed approach~\cite{ref1}.
+
+\begin{equation}
+  \left(\frac{d\sigma}{dT}\right)_{\mathrm{COH}} = \frac{G_{F}^{2} M}{2\pi} \left[ (G_{V}+G_{A})^{2} + (G_{V}-G_{A})^{2}\left(1 - \frac{T}{E_{\nu}}\right)^{2} - (G_{V}^{2}-G_{A}^{2})\frac{M T}{E_{\nu}^{2}} \right]
+  \label{eq:example1}
+\end{equation}
+
+Explain the variables in Eq.~\eqref{eq:example1}, discuss the experimental challenges~\cite{ref2}, and outline your analysis method.
+
+\begin{figure}[htbp]
+  \centering
+  \framebox{\parbox{0.8\textwidth}{\centering \vspace{1.8cm} [Figure 1 Placeholder] \vspace{1.8cm}}}
+  \caption{Short description of Figure 1.}
+  \label{fig:fig1}
+\end{figure}
+
+Summarize the expected results and statistical goals shown in Fig.~\ref{fig:fig1}.
+
+\section{Second Research Topic}
+
+Outline your second research direction, methodology, and expected impact~\cite{ref3}.
+
+\section*{Summary}
+
+Briefly summarize your overall timeline, priorities, and future research vision.
+
+\begin{thebibliography}{999}
+
+\bibitem{ref1}
+A. Author \textit{et al.}, Journal Name \textbf{Vol}, Page (Year).
+
+\bibitem{ref2}
+B. Author \textit{et al.}, Phys. Rev. D \textbf{104}, 092009 (2021).
+
+\bibitem{ref3}
+C. Author \textit{et al.}, Phys. Rev. Lett. \textbf{131}, 041002 (2023).
+
+\end{thebibliography}
+
+\end{document}
